@@ -1,0 +1,64 @@
+
+nav a {
+    color: white;
+    padding: 13px 50px;
+    text-decoration: none;
+    text-align: center;
+}
+nav a:hover {
+    background-color:rgb(2, 2, 58);
+    color: white;
+}   
+.container{
+        width: 70%;
+        margin: auto;
+        padding: 20px;
+        border: 1px solid rgb(26, 24, 24);    
+}
+table{
+    border-collapse: collapse;
+    width: 100%;
+    margin-top: 20px;
+}
+th, td{
+    border: 1px solid #290fb9;
+    padding: 8px;
+    text-align: center;
+}
+th{
+    background-color: rgb(26, 24, 24);
+}
+td{
+    color: black;
+}
+tr:hover{
+    background-color: rgb(42, 11, 116);
+    font-weight: bold;
+    
+}
+body, h1, h2, p {
+    margin: 0;
+    padding: 0;
+}
+body{
+    font-family: Arial,sans-serif;
+    background-color: #f2f2f2;
+    color: black;
+    margin: 0;
+}
+header {
+    background-color: #a8a1a1;
+    color: #ddd;    
+    padding: 20px;
+    text-align: center;
+}
+header h1{
+    font-size: 36px;
+}
+main{
+    max-width: 800px;
+    margin: 20px auto;
+    padding: 20px;
+    background-color: #fff;
+    border: 1px solid #ddd;
+}
